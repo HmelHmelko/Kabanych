@@ -36,7 +36,8 @@ public class ClerkBehaviour : MonoBehaviour
     {
         if(collision.tag == "PlayerReachZone")
         {
-            movementSpeed *= -1;
+            Debug.Log(this.gameObject + "Reached PlayerReachZone");
+            movementSpeed = 0;
         }
     }
 }
