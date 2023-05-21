@@ -225,6 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ff6a324c89a14143ab69a45214df033, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
 --- !u!61 &71751423
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -979,9 +980,9 @@ RectTransform:
   m_Father: {fileID: 958967700}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 258, y: 140}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -60, y: -330}
   m_SizeDelta: {x: 125, y: 125}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &826107913
@@ -1316,6 +1317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   k_offsetPos: {x: 2, y: 0, z: 0}
   k_fakeCoin: {fileID: 1477990184931508441, guid: 866d4bc2b7a7bb24eba5cfe5bb2b6618, type: 3}
+  coinRate: 1
 --- !u!114 &1146142009
 MonoBehaviour:
   m_ObjectHideFlags: 0
